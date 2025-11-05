@@ -176,7 +176,7 @@ With all my love 💖`;
     if (!showLetter || isTypingComplete) return;
 
     let currentIndex = 0;
-    const typingSpeed = 50;
+    const typingSpeed = 75;
 
     const typeNextCharacter = () => {
       if (currentIndex < letterText.length) {
